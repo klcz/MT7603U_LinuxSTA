@@ -1202,7 +1202,7 @@ VOID PeerAssocRspAction(
 					
 					tr_tb_set_entry(pAd, BSSID_WCID, pEntry);
 				}
-				dump_tr_entry(pAd, BSSID_WCID, __FUNCTION__, __LINE__);
+				dump_tr_entry(pAd, BSSID_WCID, (RTMP_STRING*)__FUNCTION__, __LINE__);
 //---Add by shiang for debug
 
 				
